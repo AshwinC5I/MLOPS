@@ -75,7 +75,7 @@ def train_and_evaluate(config_path):
 
 
 
-#### Fiiting model ###
+# Fiiting model #
 
     lr= ElasticNet(alpha= alpha, l1_ratio = l1_ratio,random_state= random_state)
 
@@ -83,7 +83,7 @@ def train_and_evaluate(config_path):
 
 
 
-##### prediction
+# prediction
 
     predicted = lr.predict(test_X)
 
